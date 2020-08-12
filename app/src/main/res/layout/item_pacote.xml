@@ -76,8 +76,10 @@
                 android:id="@+id/item_pacote_valor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:textColor="@android:color/holo_green_dark"
                 android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="@id/item_pacote_dias"
                 app:layout_constraintTop_toBottomOf="@id/item_pacote_dias"
                 tools:text="@sample/pacotes.json/pacotes/preco" />
