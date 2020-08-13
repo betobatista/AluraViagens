@@ -1,4 +1,4 @@
-package br.com.alura.aluraviagens.model;
+package alura.com.aluraviagens.model;
 
 import java.math.BigDecimal;
 

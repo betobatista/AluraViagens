@@ -1,4 +1,4 @@
-package util;
+package alura.com.aluraviagens.util;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;

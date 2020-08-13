@@ -1,6 +1,4 @@
-package util;
-
-import br.com.alura.aluraviagens.model.Pacote;
+package alura.com.aluraviagens.util;
 
 public class DiasUtil {
 

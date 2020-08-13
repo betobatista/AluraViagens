@@ -1,6 +1,7 @@
 package alura.com.aluraviagens.ui.adapter;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,10 +13,10 @@ import android.widget.TextView;
 import java.util.List;
 
 import alura.com.aluraviagens.R;
-import br.com.alura.aluraviagens.model.Pacote;
-import util.DiasUtil;
-import util.MoedaUtil;
-import util.ResourceUtil;
+import alura.com.aluraviagens.model.Pacote;
+import alura.com.aluraviagens.util.DiasUtil;
+import alura.com.aluraviagens.util.MoedaUtil;
+import alura.com.aluraviagens.util.ResourceUtil;
 
 public class ListaPacotesAdapter extends BaseAdapter {
 
@@ -78,5 +79,6 @@ public class ListaPacotesAdapter extends BaseAdapter {
         TextView local = inflate.findViewById(R.id.item_pacote_local);
         local.setText(pacote.getLocal());
     }
+
 
 }

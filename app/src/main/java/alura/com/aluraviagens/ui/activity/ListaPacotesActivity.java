@@ -1,5 +1,6 @@
 package alura.com.aluraviagens.ui.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ListView;
 
@@ -8,9 +9,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.List;
 
 import alura.com.aluraviagens.R;
+import alura.com.aluraviagens.dao.PacoteDAO;
+import alura.com.aluraviagens.model.Pacote;
 import alura.com.aluraviagens.ui.adapter.ListaPacotesAdapter;
-import br.com.alura.aluraviagens.dao.PacoteDAO;
-import br.com.alura.aluraviagens.model.Pacote;
 
 public class ListaPacotesActivity extends AppCompatActivity {
 
@@ -23,6 +24,9 @@ public class ListaPacotesActivity extends AppCompatActivity {
         setTitle(TITLE);
 
         configuraLista();
+
+        Intent intent = new Intent(this, ResumoPacoteActivity.class);
+        startActivity(intent);
     }
 
     private void configuraLista() {

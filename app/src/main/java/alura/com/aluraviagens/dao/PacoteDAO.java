@@ -1,11 +1,11 @@
-package br.com.alura.aluraviagens.dao;
+package alura.com.aluraviagens.dao;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import br.com.alura.aluraviagens.model.Pacote;
+import alura.com.aluraviagens.model.Pacote;
 
 public class PacoteDAO {
 
